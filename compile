@@ -1,0 +1,556 @@
+Apache Maven 3.2.1 (ea8b2b07643dbb1b84b6d16e1f08391b666bc1e9; 2014-02-14T09:37:52-08:00)
+Maven home: C:\Users\Nick\apps\apache-maven-3.2.1
+Java version: 1.7.0_45, vendor: Oracle Corporation
+Java home: C:\Program Files\Java\jdk1.7.0_45\jre
+Default locale: en_US, platform encoding: Cp1252
+OS name: "windows 7", version: "6.1", arch: "amd64", family: "windows"
+[INFO] Error stacktraces are turned on.
+[DEBUG] Reading global settings from C:\Users\Nick\apps\apache-maven-3.2.1\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\Nick\.m2\settings.xml
+[DEBUG] Using local repository at C:\Users\Nick\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\Nick\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project AspectSandbox:AspectSandbox:jar:1.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecyle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: AspectSandbox:AspectSandbox:jar:1.0-SNAPSHOT
+[DEBUG] Tasks:   [clean, compile]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building AspectSandbox 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       AspectSandbox:AspectSandbox:1.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile]
+[DEBUG] Repositories (dependencies): [central (http://repo.maven.apache.org/maven2, releases)]
+[DEBUG] Repositories (plugins)     : [central (http://repo.maven.apache.org/maven2, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.5:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.reporting.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <outputFileName>${project.build.finalName}</outputFileName>
+  <projectArtifact default-value="${project.artifact}"/>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMultiThreadWarning default-value="${false}">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.codehaus.mojo:aspectj-maven-plugin:1.5:compile (default)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <argumentFileName default-value="builddef.lst"/>
+  <aspectDirectory default-value="src/main/aspect"/>
+  <aspectLibraries>
+    <aspectLibrary>
+      <groupId>com.yskts</groupId>
+      <artifactId>TestAspect</artifactId>
+    </aspectLibrary>
+  </aspectLibraries>
+  <basedir default-value="${basedir}"/>
+  <complianceLevel default-value="1.4">1.7</complianceLevel>
+  <encoding>${project.build.sourceEncoding}</encoding>
+  <forceAjcCompile default-value="false"/>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <project default-value="${project}"/>
+  <showWeaveInfo>true</showWeaveInfo>
+  <skip default-value="false">${aspectj.skip}</skip>
+  <source default-value="${mojo.java.target}"/>
+  <target default-value="${project.build.java.target}"/>
+  <testAspectDirectory default-value="src/test/aspect"/>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=1, ConflictMarker.nodeCount=6, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=2, ConflictResolver.conflictItemCount=5, DefaultDependencyCollector.collectTime=19, DefaultDependencyCollector.transformTime=4}
+[DEBUG] AspectSandbox:AspectSandbox:jar:1.0-SNAPSHOT
+[DEBUG]    org.aspectj:aspectjrt:jar:1.7.3:compile
+[DEBUG]    org.aspectj:aspectjweaver:jar:1.7.3:compile
+[DEBUG]    com.yskts:TestAspect:jar:1.0-SNAPSHOT:compile
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ AspectSandbox ---
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG] Populating class realm maven.api
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=0, ConflictResolver.conflictItemCount=3, DefaultDependencyCollector.collectTime=19, DefaultDependencyCollector.transformTime=0}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:2.5:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.5:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.5, parent: sun.misc.Launcher$AppClassLoader@231bf785]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.5:clean' with basic configurator -->
+[DEBUG]   (f) directory = C:\Users\Nick\IdeaProjects\AspectSandbox\target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = C:\Users\Nick\IdeaProjects\AspectSandbox\target\classes
+[DEBUG]   (f) reportDirectory = C:\Users\Nick\IdeaProjects\AspectSandbox\target\site
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = C:\Users\Nick\IdeaProjects\AspectSandbox\target\test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting C:\Users\Nick\IdeaProjects\AspectSandbox\target
+[INFO] Deleting file C:\Users\Nick\IdeaProjects\AspectSandbox\target\classes\com\yskts\TestApp.class
+[INFO] Deleting file C:\Users\Nick\IdeaProjects\AspectSandbox\target\classes\com\yskts\TestApp$AjcClosure1.class
+[INFO] Deleting file C:\Users\Nick\IdeaProjects\AspectSandbox\target\classes\com\yskts\Main.class
+[INFO] Deleting directory C:\Users\Nick\IdeaProjects\AspectSandbox\target\classes\com\yskts
+[INFO] Deleting directory C:\Users\Nick\IdeaProjects\AspectSandbox\target\classes\com
+[INFO] Deleting file C:\Users\Nick\IdeaProjects\AspectSandbox\target\classes\builddef.lst
+[INFO] Deleting directory C:\Users\Nick\IdeaProjects\AspectSandbox\target\classes
+[INFO] Deleting directory C:\Users\Nick\IdeaProjects\AspectSandbox\target
+[DEBUG] Skipping non-existing directory C:\Users\Nick\IdeaProjects\AspectSandbox\target\classes
+[DEBUG] Skipping non-existing directory C:\Users\Nick\IdeaProjects\AspectSandbox\target\test-classes
+[DEBUG] Skipping non-existing directory C:\Users\Nick\IdeaProjects\AspectSandbox\target\site
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ AspectSandbox ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1, ConflictMarker.markTime=0, ConflictMarker.nodeCount=77, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=3, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=87, DefaultDependencyCollector.transformTime=4}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.6:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.13:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.13
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-error-diagnostics:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.0.6
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@231bf785]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = C:\Users\Nick\IdeaProjects\AspectSandbox\target\classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: AspectSandbox:AspectSandbox:1.0-SNAPSHOT @ C:\Users\Nick\IdeaProjects\AspectSandbox\pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: C:\Users\Nick\IdeaProjects\AspectSandbox\src\main\resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@55de5626
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, env.SYSTEMROOT=C:\Windows, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.name=Windows 7, env.FP_NO_HOST_CHECK=NO, sun.boot.class.path=C:\Program Files\Java\jdk1.7.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_45\jre\classes, env.COMPUTERNAME=NICK-PC, env.PWD=/cygdrive/c/Users/Nick/IdeaProjects/AspectSandbox, env.ALLUSERSPROFILE=C:\ProgramData, sun.desktop=windows, env.LANG=en_US.UTF-8, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.7.0_45-b18, env.HOMEPATH=\Users\Nick, project.build.sourceEncoding=UTF-8, user.name=Nick, maven.build.version=Apache Maven 3.2.1 (ea8b2b07643dbb1b84b6d16e1f08391b666bc1e9; 2014-02-14T09:37:52-08:00), env.USER=Nick, env.SHELL=/bin/bash, env.WINDOWS_TRACING_FLAGS=3, env.PATH=C:\cygwin64\usr\local\bin;C:\cygwin64\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;F:\app\Nick\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\QuickTime\QTSystem, user.language=en, env.WINDIR=C:\Windows, sun.boot.library.path=C:\Program Files\Java\jdk1.7.0_45\jre\bin, classworlds.conf=C:\Users\Nick\apps\apache-maven-3.2.1/bin/m2.conf, java.version=1.7.0_45, env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 58 Stepping 9, GenuineIntel, user.timezone=America/Los_Angeles, env.TEMP=C:\cygwin64\tmp, sun.arch.data.model=64, env.WINDOWS_TRACING_LOGFILE=C:\BVTBin\Tests\installpackage\csilogfile.log, java.endorsed.dirs=C:\Program Files\Java\jdk1.7.0_45\jre\lib\endorsed, sun.cpu.isalist=amd64, env.HOMEDRIVE=C:, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, env.SHLVL=1, env.SYSTEMDRIVE=C:, file.separator=\, env.HOSTNAME=Nick-PC, java.specification.name=Java Platform API Specification, java.class.version=51.0, org.slf4j.simpleLogger.defaultLogLevel=debug, user.country=US, env.PRINTER=Send To OneNote 2013, java.home=C:\Program Files\Java\jdk1.7.0_45\jre, env.APPDATA=C:\Users\Nick\AppData\Roaming, env.PUBLIC=C:\Users\Public, java.vm.info=mixed mode, env.OS=Windows_NT, os.version=6.1, env.=::=::\, path.separator=;, java.vm.version=24.45-b08, env.ASL.LOG=Destination=file, user.variant=, env.USERPROFILE=C:\Users\Nick, env.JAVA_HOME=C:\Program Files\Java\jdk1.7.0_45\, java.awt.printerjob=sun.awt.windows.WPrinterJob, env.TERM=xterm, env.TMP=C:\cygwin64\tmp, env.PROGRAMFILES=C:\Program Files, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, env.MANPATH=/usr/local/man:/usr/share/man:/usr/man:, user.script=, env.TZ=America/Los_Angeles, user.home=C:\Users\Nick, env.COMMONPROGRAMFILES=C:\Program Files\Common Files, env.OLDPWD=/cygdrive/c/Users/Nick/IdeaProjects/AspectSandbox, env.SESSIONNAME=Console, java.specification.vendor=Oracle Corporation, java.library.path=C:\Program Files\Java\jdk1.7.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\cygwin64\usr\local\bin;C:\cygwin64\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;F:\app\Nick\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\QuickTime\QTSystem;., env.NUMBER_OF_PROCESSORS=4, java.vendor.url=http://java.oracle.com/, env.COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, env.PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\, env.MAVEN_CMD_LINE_ARGS=-X clean compile, java.vm.vendor=Oracle Corporation, maven.home=C:\Users\Nick\apps\apache-maven-3.2.1, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -X clean compile, java.class.path=C:\Users\Nick\apps\apache-maven-3.2.1/boot/plexus-classworlds-2.5.1.jar, env.PROGRAMW6432=C:\Program Files, maven.version=3.2.1, env.PROGRAMFILES(X86)=C:\Program Files (x86), java.vm.specification.name=Java Virtual Machine Specification, env.LOGONSERVER=\\NICK-PC, java.vm.specification.version=1.7, env.PROCESSOR_ARCHITECTURE=AMD64, env.COMMONPROGRAMW6432=C:\Program Files\Common Files, sun.cpu.endian=little, sun.os.patch.level=Service Pack 1, env.HOME=C:\cygwin64\home\Nick, java.io.tmpdir=C:\cygwin64\tmp\, env.PROCESSOR_REVISION=3a09, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.PROGRAMDATA=C:\ProgramData, env.COMSPEC=C:\Windows\system32\cmd.exe, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Program Files\Java\jdk1.7.0_45\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, env.LOCALAPPDATA=C:\Users\Nick\AppData\Local, user.dir=C:\Users\Nick\IdeaProjects\AspectSandbox, env.INFOPATH=/usr/local/info:/usr/share/info:/usr/info:, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, env.USERNAME=Nick, file.encoding=Cp1252, env.USERDOMAIN=Nick-PC, java.specification.version=1.7, env.PROCESSOR_LEVEL=6}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory C:\Users\Nick\IdeaProjects\AspectSandbox\src\main\resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 0 resource
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ AspectSandbox ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1, ConflictMarker.markTime=0, ConflictMarker.nodeCount=106, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=27, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=3, ConflictResolver.conflictItemCount=53, DefaultDependencyCollector.collectTime=77, DefaultDependencyCollector.transformTime=4}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:2.5.1:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:1.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:1.9.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:1.9.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:1.9.1:runtime
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]       classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:2.5.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:2.5.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:2.5.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:2.5.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:1.9.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:1.9.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:1.9.1
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-error-diagnostics:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-monitor:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-toolchain:jar:1.0
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1-alpha-2
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:2.5.1, parent: sun.misc.Launcher$AppClassLoader@231bf785]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile' with basic configurator -->
+[DEBUG]   (f) basedir = C:\Users\Nick\IdeaProjects\AspectSandbox
+[DEBUG]   (f) buildDirectory = C:\Users\Nick\IdeaProjects\AspectSandbox\target
+[DEBUG]   (f) classpathElements = [C:\Users\Nick\IdeaProjects\AspectSandbox\target\classes, C:\Users\Nick\.m2\repository\org\aspectj\aspectjrt\1.7.3\aspectjrt-1.7.3.jar, C:\Users\Nick\.m2\repository\org\aspectj\aspectjweaver\1.7.3\aspectjweaver-1.7.3.jar, C:\Users\Nick\.m2\repository\com\yskts\TestAspect\1.0-SNAPSHOT\TestAspect-1.0-SNAPSHOT.jar]
+[DEBUG]   (f) compileSourceRoots = [C:\Users\Nick\IdeaProjects\AspectSandbox\src\main\java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = C:\Users\Nick\IdeaProjects\AspectSandbox\target\generated-sources\annotations
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = C:\Users\Nick\IdeaProjects\AspectSandbox\target\classes
+[DEBUG]   (f) outputFileName = AspectSandbox-1.0-SNAPSHOT
+[DEBUG]   (f) projectArtifact = AspectSandbox:AspectSandbox:jar:1.0-SNAPSHOT
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@55de5626
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) source = 1.5
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.5
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [C:\Users\Nick\IdeaProjects\AspectSandbox\src\main\java]
+[DEBUG] Classpath: [C:\Users\Nick\IdeaProjects\AspectSandbox\target\classes
+ C:\Users\Nick\.m2\repository\org\aspectj\aspectjrt\1.7.3\aspectjrt-1.7.3.jar
+ C:\Users\Nick\.m2\repository\org\aspectj\aspectjweaver\1.7.3\aspectjweaver-1.7.3.jar
+ C:\Users\Nick\.m2\repository\com\yskts\TestAspect\1.0-SNAPSHOT\TestAspect-1.0-SNAPSHOT.jar]
+[DEBUG] Output directory: C:\Users\Nick\IdeaProjects\AspectSandbox\target\classes
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] Classpath:
+[DEBUG]  C:\Users\Nick\IdeaProjects\AspectSandbox\target\classes
+[DEBUG]  C:\Users\Nick\.m2\repository\org\aspectj\aspectjrt\1.7.3\aspectjrt-1.7.3.jar
+[DEBUG]  C:\Users\Nick\.m2\repository\org\aspectj\aspectjweaver\1.7.3\aspectjweaver-1.7.3.jar
+[DEBUG]  C:\Users\Nick\.m2\repository\com\yskts\TestAspect\1.0-SNAPSHOT\TestAspect-1.0-SNAPSHOT.jar
+[DEBUG] Source roots:
+[DEBUG]  C:\Users\Nick\IdeaProjects\AspectSandbox\src\main\java
+[DEBUG] Command line options:
+[DEBUG] -d C:\Users\Nick\IdeaProjects\AspectSandbox\target\classes -classpath C:\Users\Nick\IdeaProjects\AspectSandbox\target\classes;C:\Users\Nick\.m2\repository\org\aspectj\aspectjrt\1.7.3\aspectjrt-1.7.3.jar;C:\Users\Nick\.m2\repository\org\aspectj\aspectjweaver\1.7.3\aspectjweaver-1.7.3.jar;C:\Users\Nick\.m2\repository\com\yskts\TestAspect\1.0-SNAPSHOT\TestAspect-1.0-SNAPSHOT.jar; -sourcepath C:\Users\Nick\IdeaProjects\AspectSandbox\src\main\java; C:\Users\Nick\IdeaProjects\AspectSandbox\src\main\java\com\yskts\TestApp.java C:\Users\Nick\IdeaProjects\AspectSandbox\src\main\java\com\yskts\Main.java -g -nowarn -target 1.5 -source 1.5 -encoding UTF-8
+[INFO] Compiling 2 source files to C:\Users\Nick\IdeaProjects\AspectSandbox\target\classes
+[INFO] 
+[INFO] --- aspectj-maven-plugin:1.5:compile (default) @ AspectSandbox ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=139, ConflictIdSorter.graphTime=1, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=43, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=5, ConflictResolver.conflictItemCount=98, DefaultDependencyCollector.collectTime=153, DefaultDependencyCollector.transformTime=6}
+[DEBUG] org.codehaus.mojo:aspectj-maven-plugin:jar:1.5:
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.10:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]          backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:4.11:test
+[DEBUG]             org.hamcrest:hamcrest-core:jar:1.3:test
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven.reporting:maven-reporting-api:jar:2.2.1:compile
+[DEBUG]       org.apache.maven.doxia:doxia-sink-api:jar:1.1:compile
+[DEBUG]       org.apache.maven.doxia:doxia-logging-api:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.apache.maven.doxia:doxia-site-renderer:jar:1.1.2:compile
+[DEBUG]       org.apache.maven.doxia:doxia-core:jar:1.1.2:compile
+[DEBUG]          xerces:xercesImpl:jar:2.8.1:compile
+[DEBUG]          commons-lang:commons-lang:jar:2.4:compile
+[DEBUG]          commons-httpclient:commons-httpclient:jar:3.1:compile
+[DEBUG]             commons-codec:commons-codec:jar:1.2:compile
+[DEBUG]       org.apache.maven.doxia:doxia-decoration-model:jar:1.1.2:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-xhtml:jar:1.1.2:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-fml:jar:1.1.2:compile
+[DEBUG]       org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7:compile
+[DEBUG]       org.codehaus.plexus:plexus-velocity:jar:1.1.7:compile
+[DEBUG]       org.apache.velocity:velocity:jar:1.5:compile
+[DEBUG]          oro:oro:jar:2.0.8:compile
+[DEBUG]       commons-collections:commons-collections:jar:3.2:compile
+[DEBUG]    org.apache.maven.reporting:maven-reporting-impl:jar:2.1:compile
+[DEBUG]       commons-validator:commons-validator:jar:1.2.0:compile
+[DEBUG]          commons-beanutils:commons-beanutils:jar:1.7.0:compile
+[DEBUG]          commons-digester:commons-digester:jar:1.6:compile
+[DEBUG]          commons-logging:commons-logging:jar:1.0.4:compile
+[DEBUG]          xml-apis:xml-apis:jar:1.0.b2:compile
+[DEBUG]    org.aspectj:aspectjtools:jar:1.7.3:compile
+[DEBUG]    com.sun:tools:jar:1.7.0_45:system
+[DEBUG] Created new class realm plugin>org.codehaus.mojo:aspectj-maven-plugin:1.5
+[DEBUG] Importing foreign packages into class realm plugin>org.codehaus.mojo:aspectj-maven-plugin:1.5
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.codehaus.mojo:aspectj-maven-plugin:1.5
+[DEBUG]   Included: org.codehaus.mojo:aspectj-maven-plugin:jar:1.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.10
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.2.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-logging-api:jar:1.1
+[DEBUG]   Included: org.apache.maven.doxia:doxia-site-renderer:jar:1.1.2
+[DEBUG]   Included: org.apache.maven.doxia:doxia-core:jar:1.1.2
+[DEBUG]   Included: xerces:xercesImpl:jar:2.8.1
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.4
+[DEBUG]   Included: commons-httpclient:commons-httpclient:jar:3.1
+[DEBUG]   Included: commons-codec:commons-codec:jar:1.2
+[DEBUG]   Included: org.apache.maven.doxia:doxia-decoration-model:jar:1.1.2
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-xhtml:jar:1.1.2
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-fml:jar:1.1.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7
+[DEBUG]   Included: org.codehaus.plexus:plexus-velocity:jar:1.1.7
+[DEBUG]   Included: org.apache.velocity:velocity:jar:1.5
+[DEBUG]   Included: oro:oro:jar:2.0.8
+[DEBUG]   Included: commons-collections:commons-collections:jar:3.2
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-impl:jar:2.1
+[DEBUG]   Included: commons-validator:commons-validator:jar:1.2.0
+[DEBUG]   Included: commons-beanutils:commons-beanutils:jar:1.7.0
+[DEBUG]   Included: commons-digester:commons-digester:jar:1.6
+[DEBUG]   Included: commons-logging:commons-logging:jar:1.0.4
+[DEBUG]   Included: xml-apis:xml-apis:jar:1.0.b2
+[DEBUG]   Included: org.aspectj:aspectjtools:jar:1.7.3
+[DEBUG]   Included: com.sun:tools:jar:1.7.0_45
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.2.1
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.2.1
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: junit:junit:jar:4.11
+[DEBUG]   Excluded: org.hamcrest:hamcrest-core:jar:1.3
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1-alpha-2
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.2.1
+[DEBUG] Configuring mojo org.codehaus.mojo:aspectj-maven-plugin:1.5:compile from plugin realm ClassRealm[plugin>org.codehaus.mojo:aspectj-maven-plugin:1.5, parent: sun.misc.Launcher$AppClassLoader@231bf785]
+[DEBUG] Configuring mojo 'org.codehaus.mojo:aspectj-maven-plugin:1.5:compile' with basic configurator -->
+[DEBUG]   (s) argumentFileName = builddef.lst
+[DEBUG]   (f) aspectDirectory = src/main/aspect
+[DEBUG]   (s) groupId = com.yskts
+[DEBUG]   (s) artifactId = TestAspect
+[DEBUG]   (f) aspectLibraries = [com.yskts:TestAspect]
+[DEBUG]   (f) basedir = C:\Users\Nick\IdeaProjects\AspectSandbox
+[DEBUG]   (s) complianceLevel = 1.7
+[DEBUG]   (s) encoding = UTF-8
+[DEBUG]   (f) forceAjcCompile = false
+[DEBUG]   (f) outputDirectory = C:\Users\Nick\IdeaProjects\AspectSandbox\target\classes
+[DEBUG]   (f) project = MavenProject: AspectSandbox:AspectSandbox:1.0-SNAPSHOT @ C:\Users\Nick\IdeaProjects\AspectSandbox\pom.xml
+[DEBUG]   (s) showWeaveInfo = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testAspectDirectory = src/test/aspect
+[DEBUG] -- end configuration --
+[DEBUG] Not adding non-existent or already added aspectSourcePathDir [C:\Users\Nick\IdeaProjects\AspectSandbox\src\main\aspect] to compileSourceRoots.
+[DEBUG] Not adding non-existent or already added testAspectSourcePathDir [C:\Users\Nick\IdeaProjects\AspectSandbox\src\test\aspect] to testCompileSourceRoots.
+[DEBUG] Adding -aspectpath: C:\Users\Nick\.m2\repository\com\yskts\TestAspect\1.0-SNAPSHOT\TestAspect-1.0-SNAPSHOT.jar
+[DEBUG] Running : ajc -1.7 -encoding UTF-8 -showWeaveInfo -classpath C:\Users\Nick\.m2\repository\org\aspectj\aspectjrt\1.7.3\aspectjrt-1.7.3.jar;C:\Users\Nick\.m2\repository\org\aspectj\aspectjweaver\1.7.3\aspectjweaver-1.7.3.jar;C:\Users\Nick\.m2\repository\com\yskts\TestAspect\1.0-SNAPSHOT\TestAspect-1.0-SNAPSHOT.jar;C:\Users\Nick\IdeaProjects\AspectSandbox\target\classes -aspectpath C:\Users\Nick\.m2\repository\com\yskts\TestAspect\1.0-SNAPSHOT\TestAspect-1.0-SNAPSHOT.jar -d C:\Users\Nick\IdeaProjects\AspectSandbox\target\classes C:\Users\Nick\IdeaProjects\AspectSandbox\src\main\java\com\yskts\Main.java C:\Users\Nick\IdeaProjects\AspectSandbox\src\main\java\com\yskts\TestApp.java
+[DEBUG] Compiling and weaving 2 sources to C:\Users\Nick\IdeaProjects\AspectSandbox\target\classes
+[DEBUG] Argumentsfile written : C:\Users\Nick\IdeaProjects\AspectSandbox\target\classes\builddef.lst
+[DEBUG] directory classpath entry does not exist: C:\Program Files\Java\jdk1.7.0_45\jre\lib\sunrsasign.jar
+[DEBUG] zipfile classpath entry does not exist: C:\Program Files\Java\jdk1.7.0_45\jre\classes
+[DEBUG] Pipelining compilation
+[DEBUG] compiling C:\Users\Nick\IdeaProjects\AspectSandbox\src\main\java\com\yskts\Main.java
+[DEBUG] weaver operating in reweavable mode.  Need to verify any required types exist.
+[DEBUG] woven class com.yskts.Main (from C:\Users\Nick\IdeaProjects\AspectSandbox\src\main\java\com\yskts\Main.java)
+[DEBUG] compiling C:\Users\Nick\IdeaProjects\AspectSandbox\src\main\java\com\yskts\TestApp.java
+[INFO] Join point 'method-execution(void com.yskts.TestApp.doSomething())' in Type 'com.yskts.TestApp' (TestApp.java:11) advised by around advice from 'com.yskts.aspect.TestAspect' (TestAspect-1.0-SNAPSHOT.jar!TestAspect.class(from TestAspect.java))
+[DEBUG] woven class com.yskts.TestApp (from C:\Users\Nick\IdeaProjects\AspectSandbox\src\main\java\com\yskts\TestApp.java)
+[DEBUG] woven class com.yskts.TestApp$AjcClosure1 (from C:\Users\Nick\IdeaProjects\AspectSandbox\src\main\java\com\yskts\TestApp.java)
+[DEBUG] Compiler took 539ms
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.657 s
+[INFO] Finished at: 2014-04-12T13:44:18-08:00
+[INFO] Final Memory: 22M/490M
+[INFO] ------------------------------------------------------------------------
